@@ -1,0 +1,24 @@
+{
+  "name": "kickstarter_steam",
+  "version": "1.0.0",
+  "description": "Combine data from steam and kickstarter about a given list of games",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanlaff/kickstart_steam_scraper.git"
+  },
+  "author": "Sean Lafferty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanlaff/kickstart_steam_scraper/issues"
+  },
+  "homepage": "https://github.com/seanlaff/kickstart_steam_scraper#readme",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "decay": "^1.0.8",
+    "request": "^2.60.0"
+  }
+}
